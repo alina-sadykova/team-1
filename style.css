@@ -7,3 +7,68 @@ i{
     text-align: center;
     padding-top: 10px;
 }
+#contact{
+    background-image: url("https://wallpaperaccess.com/full/545650.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    padding-top: 20px;   
+    position: relative;
+}
+.btn{
+    position: absolute;
+    bottom: 80px;
+}
+.btn input[type="submit"]{
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+    background-color: #FED136;
+    border-radius: 10px;
+    border: none;
+}
+.btn input[type="submit"]:hover{
+background-color: rgb(241, 241, 59);
+cursor: pointer;
+}
+ form{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+} 
+
+.input-left input{
+   display: flex;
+   padding: 27px;
+   margin-bottom: 20px;
+   border-radius: 10px;
+  width: 100%;
+}
+.input-left{
+   flex-basis: 37%;
+}
+.input-right{
+   flex-basis: 37%;
+   margin-left: 75px;
+   
+}
+textarea{
+    width: 100%;
+    border-radius: 10px;
+    padding: 17px;
+}
+.contact-texts{
+    text-align: center;
+    font-size: 30px;
+}
+.contact-texts h1{
+    margin-bottom: 0;
+}
+.contact-texts p{
+    margin-top: 10px;
+    color: lightgrey;
+    font-size: 20px;
+}
+
