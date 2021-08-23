@@ -1,13 +1,14 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family:  'Montserrat', sans-serif;
 }
 img{
     width: 50%;
 }
 .container{
     width: 100%;
+    /* position: relative; */
 }
 /* NAV starts here by Alina, Gulfiya, Evgeniia */
 nav{
@@ -18,15 +19,19 @@ nav{
     padding-top: 30px;
 }
 .logo{
-    font-size: 2.2rem;
-    font-weight: 900px;
-    color: yellow;
-    padding-left: 200px;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-left: 250px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(228, 189, 15);
     
 }
 .left-nav{
     margin-right: 40px;
-    padding-right:200px;
+    padding-right:180px;
+    font-weight: normal;
 }
 li {
     list-style: none;
@@ -39,7 +44,7 @@ li a{
     color: white;
 }
 li a:hover{
-    color: yellow;
+    color: rgb(228, 189, 15);;
 }
 
 /* HEADER starts here by Alina, Gulfiya, Evgeniia*/
@@ -52,34 +57,40 @@ header{
     width: 100%;
     color: white;
     text-align: center;
+    /* position: relative; */
+    /* line-height: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.header-content{
-    position: absolute;
-    top: 280px;
-    left: 380px;
-}
+
 header h3{
-    font-size: 40px;
+    font-size: 45px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
+    font-weight: normal;
+    /* font-style: italic; */
+    margin-top: 100px;
+    margin-bottom: 0;
 }
 header h1{
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 900px;
-    margin-top: 20px;
+    margin-top: 25px;
+    margin-bottom: 80px;
 }
 header button{
-    background-color: #fed136;
+    /* background-color: #fed136; */
+    background-color: rgb(228, 189, 15);
     color: white;
-    padding: 25px 45px; 
-    font-size: 20px;
+    padding: 30px 50px; 
+    font-size: 22px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
 }
 header button:hover{
-    background-color: #f5d14f;
+    background-color: rgb(209, 173, 14);
 }
 
 
