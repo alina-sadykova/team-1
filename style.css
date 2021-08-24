@@ -95,15 +95,6 @@ header button:hover{
 
 
 /* SECTION CONTACT starts here */
-i{
-    color: white;
-    background: rgb(180, 155, 9);
-    width:150px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center;
-    padding-top: 10px;
-}
 #contact{
     background-image: url("https://wallpaperaccess.com/full/545650.jpg");
     background-position: center;
@@ -127,29 +118,29 @@ i{
     border: none;
 }
 .btn input[type="submit"]:hover{
-background-color: rgb(241, 241, 59);
-cursor: pointer;
+    background-color: rgb(241, 241, 59);
+    cursor: pointer;
 }
- form{
+form{
     margin-top: 70px;
     display: flex;
     justify-content: center;
 } 
 
 .input-left input{
-   display: flex;
-   padding: 27px;
-   margin-bottom: 20px;
-   border-radius: 10px;
-  width: 100%;
+    display: flex;
+    padding: 27px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
 }
 .input-left{
-   flex-basis: 37%;
+    flex-basis: 37%;
 }
 .input-right{
-   flex-basis: 37%;
-   margin-left: 75px;
-   
+    flex-basis: 37%;
+    margin-left: 75px;
+    
 }
 textarea{
     width: 100%;
@@ -168,4 +159,45 @@ textarea{
     color: lightgrey;
     font-size: 20px;
 }
+/* portfolio */
 
+/* services */
+.service-boxes{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    grid-gap: 35px;
+    text-align: center;
+}
+.service-boxes p{
+    font-size: 13px;
+    line-height: 25px;
+    color: grey;
+}
+.servicetexts{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.servicetexts p{
+    margin-bottom: 60px;
+    font-family: italic;
+    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: grey;
+}
+.srv-box{
+    margin-bottom: 100px;
+    padding: 25px;
+    
+}
+.srv-box p{
+    font-size: 14px;
+}
+
+.icon-wrapper{
+    justify-content: center;
+    background: rgb(180, 155, 9);
+    border-radius: 100%;
+  padding: 80px 5px;
+
+}
