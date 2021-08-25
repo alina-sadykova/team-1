@@ -170,8 +170,8 @@ textarea{
     text-align: center;
 }
 .service-boxes p{
-    font-size: 10px;
-    /* line-height: 1.8; */
+    font-size: 13px;
+    line-height: 1.8;
     color: grey;
 }
 .servicetexts{
@@ -195,7 +195,6 @@ textarea{
 .srv-box p{
     font-size: 14px;
     line-height: 1.6;
-    
 }
 .srv-box h4{
     font-size: 25px;
@@ -218,6 +217,7 @@ textarea{
     text-align: center;
     background-color: rgb(240, 240, 240);
     height: 170vh;
+
 }
 #portfolio p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -346,3 +346,4 @@ textarea{
     background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://www.mural-wallpaper.com/wp-content/uploads/2020/11/S-CI48.jpg");
     /* transition: 10s ease; */
 }
+  
