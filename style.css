@@ -21,7 +21,7 @@ nav{
 .logo{
     font-size: 2rem;
     font-weight: 600;
-    padding-left: 250px;
+    padding-left: 90px;
 }
 .logo a{
     text-decoration: none;
@@ -30,14 +30,14 @@ nav{
 }
 .left-nav{
     margin-right: 40px;
-    padding-right:180px;
+    padding-right:50px;
     font-weight: normal;
 }
 li {
     list-style: none;
     display: inline-block;
-    margin-right: 40px;
-    font-size: 20px;
+    margin-right: 20px;
+    font-size: 17px;
 }
 li a{
     text-decoration: none;
@@ -65,7 +65,7 @@ header{
 }
 
 header h3{
-    font-size: 45px;
+    font-size: 40px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
@@ -74,7 +74,7 @@ header h3{
     margin-bottom: 0;
 }
 header h1{
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 900px;
     margin-top: 25px;
     margin-bottom: 80px;
@@ -83,8 +83,9 @@ header button{
     /* background-color: #fed136; */
     background-color: rgb(228, 189, 15);
     color: white;
-    padding: 30px 50px; 
-    font-size: 22px;
+    cursor: pointer;
+    padding: 20px 40px; 
+    font-size: 19px;
     border: none;
     border-radius: 5px;
     font-weight: bold;
@@ -192,7 +193,8 @@ textarea{
     
 }
 .srv-box p{
-    font-size: 20px;
+    font-size: 14px;
+    line-height: 1.6;
 }
 .srv-box h4{
     font-size: 25px;
@@ -214,7 +216,8 @@ textarea{
 #portfolio{
     text-align: center;
     background-color: rgb(240, 240, 240);
-    height: 150vh;
+    height: 170vh;
+
 }
 #portfolio p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -254,14 +257,14 @@ textarea{
 .icon-hov:hover i{
     visibility: visible;
     position: relative;
-    top: 40%;
+    top: 35%;
     left: 2%;
     color: white;
     font-size: 70px;
 }
 .image-one{
     height:75%;
-    background-image: url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: url("https://images.unsplash.com/photo-1509319117193-57bab727e09d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,12 +273,12 @@ textarea{
     /* backface-visibility: hidden; */
 }
 .image-one:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://images.unsplash.com/photo-1509319117193-57bab727e09d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
     transition: 10s ease;
 }
 .image-two{
     height:75%;
-    background-image: url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: url("https://images.unsplash.com/photo-1480444423787-9ea7b1509c54?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -284,12 +287,12 @@ textarea{
     /* backface-visibility: hidden; */
 }
 .image-two:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://images.unsplash.com/photo-1480444423787-9ea7b1509c54?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80");
     /* transition: 10s ease; */
 }
 .image-three{
     height:75%;
-    background-image: url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: url("https://images.unsplash.com/photo-1597213277741-2de4c4b717d1?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1537&q=80");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -298,12 +301,12 @@ textarea{
     /* backface-visibility: hidden; */
 }
 .image-three:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://images.unsplash.com/photo-1597213277741-2de4c4b717d1?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1537&q=80");
     /* transition: 10s ease; */
 }
 .image-four{
     height:75%;
-    background-image: url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: url("https://cdn.thewirecutter.com/wp-content/uploads/2019/04/lapdesks-lowres-3606-630x420.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -312,12 +315,12 @@ textarea{
     /* backface-visibility: hidden; */
 }
 .image-four:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://cdn.thewirecutter.com/wp-content/uploads/2019/04/lapdesks-lowres-3606-630x420.jpg");
     /* transition: 10s ease; */
 }
 .image-five{
     height:75%;
-    background-image: url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: url("https://lp-cms-production.imgix.net/features/2018/10/shutterstock_1048826978-v1-3ae964b49212.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -326,12 +329,12 @@ textarea{
     /* backface-visibility: hidden; */
 }
 .image-five:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://lp-cms-production.imgix.net/features/2018/10/shutterstock_1048826978-v1-3ae964b49212.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850");
     /* transition: 10s ease; */
 }
 .image-six{
     height:75%;
-    background-image: url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: url("https://www.mural-wallpaper.com/wp-content/uploads/2020/11/S-CI48.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -340,6 +343,7 @@ textarea{
     /* backface-visibility: hidden; */
 }
 .image-six:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://thumbs-prod.si-cdn.com/P4Smi9MthEBXH7pdW8Y-bvwR6ts=/1072x720/filters:no_upscale()/https://public-media.si-cdn.com/filer/04/8e/048ed839-a581-48af-a0ae-fac6fec00948/gettyimages-168346757_web.jpg");
+    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://www.mural-wallpaper.com/wp-content/uploads/2020/11/S-CI48.jpg");
     /* transition: 10s ease; */
 }
+  
