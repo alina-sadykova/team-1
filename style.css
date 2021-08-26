@@ -1,409 +1,484 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family:  'Montserrat', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
-img{
-    width: 50%;
+img {
+  width: 50%;
 }
-.container{
-    width: 100%;
-    /* position: relative; */
+.container {
+  width: 100%;
+  /* position: relative; */
 }
 /* NAV starts here by Alina, Gulfiya, Evgeniia */
-nav{
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    width: 100%;
-    padding-top: 30px;
+nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  padding-top: 30px;
 }
-.logo{
-    font-size: 2rem;
-    font-weight: 600;
-    padding-left: 90px;
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  padding-left: 90px;
 }
-.logo a{
-    text-decoration: none;
-    color: rgb(228, 189, 15);
-    
+.logo a {
+  text-decoration: none;
+  color: rgb(228, 189, 15);
 }
-.left-nav{
-    margin-right: 40px;
-    padding-right:50px;
-    font-weight: normal;
+.left-nav {
+  margin-right: 40px;
+  padding-right: 50px;
+  font-weight: normal;
 }
 li {
-    list-style: none;
-    display: inline-block;
-    margin-right: 20px;
-    font-size: 17px;
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 17px;
 }
-li a{
-    text-decoration: none;
-    color: white;
+li a {
+  text-decoration: none;
+  color: white;
 }
-li a:hover{
-    color: rgb(228, 189, 15);;
+li a:hover {
+  color: rgb(228, 189, 15);
 }
 
 /* HEADER starts here by Alina, Gulfiya, Evgeniia*/
-header{
-    background-image: url(https://www.gentlemansgazette.com/wp-content/uploads/2017/10/Pic_1.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)) , url(https://www.gentlemansgazette.com/wp-content/uploads/2017/10/Pic_1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    color: white;
-    text-align: center;
-    /* position: relative; */
-    /* line-height: 200px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+header {
+  background-image: url(https://www.gentlemansgazette.com/wp-content/uploads/2017/10/Pic_1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(https://www.gentlemansgazette.com/wp-content/uploads/2017/10/Pic_1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  /* position: relative; */
+  /* line-height: 200px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-header h3{
-    font-size: 40px;
-    font-style: italic;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
-    /* font-style: italic; */
-    margin-top: 100px;
-    margin-bottom: 0;
+header h3 {
+  font-size: 40px;
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  /* font-style: italic; */
+  margin-top: 100px;
+  margin-bottom: 0;
 }
-header h1{
-    font-size: 70px;
-    font-weight: 900px;
-    margin-top: 25px;
-    margin-bottom: 80px;
+header h1 {
+  font-size: 70px;
+  font-weight: 900px;
+  margin-top: 25px;
+  margin-bottom: 80px;
 }
-header button{
-    /* background-color: #fed136; */
-    background-color: rgb(228, 189, 15);
-    color: white;
-    cursor: pointer;
-    padding: 20px 40px; 
-    font-size: 19px;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
+header button {
+  /* background-color: #fed136; */
+  background-color: rgb(228, 189, 15);
+  color: white;
+  cursor: pointer;
+  padding: 20px 40px;
+  font-size: 19px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
-header button:hover{
-    background-color: rgb(209, 173, 14);
-}
-
-
-/* SECTION CONTACT starts here */
-#contact{
-    background-image: url("https://wallpaperaccess.com/full/545650.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    color: white;
-    padding-top: 20px;   
-    position: relative;
-}
-.btn{
-    position: absolute;
-    bottom: 80px;
-}
-.btn input[type="submit"]{
-    padding: 25px;
-    color: white;
-    font-size: 20px;
-    background-color: #FED136;
-    border-radius: 10px;
-    border: none;
-}
-.btn input[type="submit"]:hover{
-    background-color: rgb(241, 241, 59);
-    cursor: pointer;
-}
-form{
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-} 
-
-.input-left input{
-    display: flex;
-    padding: 27px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    width: 100%;
-}
-.input-left{
-    flex-basis: 37%;
-}
-.input-right{
-    flex-basis: 37%;
-    margin-left: 75px;
-    
-}
-textarea{
-    width: 100%;
-    border-radius: 10px;
-    padding: 17px;
-}
-.contact-texts{
-    text-align: center;
-    font-size: 30px;
-}
-.contact-texts h1{
-    margin-bottom: 0;
-}
-.contact-texts p{
-    margin-top: 10px;
-    color: lightgrey;
-    font-size: 20px;
+header button:hover {
+  background-color: rgb(209, 173, 14);
 }
 
-/* SERVICES STARTS HERE */
-.service-boxes{
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    justify-content: center;
-    grid-gap: 35px;
-    text-align: center;
+/* SECTION CONTACT starts here  Karina */
+#contact {
+  background-image: url("https://wallpaperaccess.com/full/545650.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  padding-top: 20px;
+  position: relative;
 }
-.service-boxes p{
-    font-size: 13px;
-    line-height: 1.8;
-    color: grey;
+.btn {
+  position: absolute;
+  bottom: 80px;
 }
-.servicetexts{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 20px;
+.btn input[type="submit"] {
+  padding: 25px;
+  color: white;
+  font-size: 20px;
+  background-color: #fed136;
+  border-radius: 10px;
+  border: none;
 }
-.servicetexts p{
-    margin-bottom: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: grey;
+.btn input[type="submit"]:hover {
+  background-color: rgb(241, 241, 59);
+  cursor: pointer;
 }
-.servicetexts h2{
-    font-size: 40px;
+form {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
 }
-.srv-box{
-    margin-bottom: 100px;
-    padding: 25px;
-    
+
+.input-left input {
+  display: flex;
+  padding: 27px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%;
 }
-.srv-box p{
-    font-size: 14px;
-    line-height: 1.6;
+.input-left {
+  flex-basis: 37%;
 }
-.srv-box h4{
-    font-size: 25px;
+.input-right {
+  flex-basis: 37%;
+  margin-left: 75px;
 }
-.icon-wrapper{
- color: white;
-    background: #fed136;;
+textarea {
+  width: 100%;
+  border-radius: 10px;
+  padding: 17px;
+}
+.contact-texts {
+  text-align: center;
+  font-size: 30px;
+}
+.contact-texts h1 {
+  margin-bottom: 0;
+}
+.contact-texts p {
+  margin-top: 10px;
+  color: lightgrey;
+  font-size: 20px;
+}
+
+/* SERVICES STARTS HERE   Gulfiya and Karina */
+.service-boxes {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  grid-gap: 35px;
+  text-align: center;
+}
+.service-boxes p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: grey;
+}
+.servicetexts {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 20px;
+}
+.servicetexts p {
+  margin-bottom: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: grey;
+}
+.servicetexts h2 {
+  font-size: 40px;
+}
+.srv-box {
+  margin-bottom: 100px;
+  padding: 25px;
+}
+.srv-box p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+.srv-box h4 {
+  font-size: 25px;
+}
+.icon-wrapper {
+  color: white;
+  background: #fed136;
   width: 150px;
   height: 150px;
   border-radius: 50%;
- margin:auto;
+  margin: auto;
 }
-.icon-wrapper i{
-    position: relative;
-    top: 30%;
+.icon-wrapper i {
+  position: relative;
+  top: 30%;
 }
 
-/* PORTFOLIO STARTS HERE */
-#portfolio{
-    text-align: center;
-    background-color: rgb(240, 240, 240);
-    height: 170vh;
-
+/* PORTFOLIO STARTS HERE  Alina and Karina  */
+#portfolio {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+  height: 170vh;
 }
-#portfolio p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    color: gray;
+#portfolio p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  color: gray;
 }
-.portfolio-text{
-    padding-top: 70px;
-    padding-bottom: 40px;
-    font-size: 20px;
+.portfolio-text {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  font-size: 20px;
 }
-.portfolio-text h1{
-    font-size: 50px;
-    margin-bottom: 0;
+.portfolio-text h1 {
+  font-size: 50px;
+  margin-bottom: 0;
 }
-.product-grid{
-    display: grid;
-    justify-content: center;
-    grid-template-columns:  repeat(3,25%);
-    grid-gap: 30px;
+.product-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 25%);
+  grid-gap: 30px;
 }
-.products{
-    background-color: white;
-    padding-bottom: 20px;
+.products {
+  background-color: white;
+  padding-bottom: 20px;
 }
-.products h2{
-    margin-bottom: 0;
-    font-size: 30px;
+.products h2 {
+  margin-bottom: 0;
+  font-size: 30px;
 }
-.products p{
-    margin-top: 0;
-    font-size: 20px;
+.products p {
+  margin-top: 0;
+  font-size: 20px;
 }
-.icon-product{
-    visibility: hidden;
+.icon-product {
+  visibility: hidden;
 }
-.icon-hov:hover i{
-    visibility: visible;
-    position: relative;
-    top: 35%;
-    left: 2%;
-    color: white;
-    font-size: 70px;
+.icon-hov:hover i {
+  visibility: visible;
+  position: relative;
+  top: 35%;
+  left: 2%;
+  color: white;
+  font-size: 70px;
 }
-.image-one{
-    height:75%;
-    background-image: url("https://images.unsplash.com/photo-1509319117193-57bab727e09d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-    /* transition: .3s ease; */
-    /* backface-visibility: hidden; */
+.image-one {
+  height: 75%;
+  background-image: url("https://images.unsplash.com/photo-1509319117193-57bab727e09d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  /* transition: .3s ease; */
+  /* backface-visibility: hidden; */
 }
 .image-one:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://images.unsplash.com/photo-1509319117193-57bab727e09d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
-    transition: 10s ease;
+  background-image: linear-gradient(
+      rgba(207, 197, 45, 0.705),
+      rgba(207, 197, 45, 0.705)
+    ),
+    url("https://images.unsplash.com/photo-1509319117193-57bab727e09d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80");
+  transition: 10s ease;
 }
-.image-two{
-    height:75%;
-    background-image: url("https://images.unsplash.com/photo-1480444423787-9ea7b1509c54?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-    transition: .3s ease;
-    /* backface-visibility: hidden; */
+.image-two {
+  height: 75%;
+  background-image: url("https://images.unsplash.com/photo-1480444423787-9ea7b1509c54?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  transition: 0.3s ease;
+  /* backface-visibility: hidden; */
 }
 .image-two:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://images.unsplash.com/photo-1480444423787-9ea7b1509c54?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80");
-    /* transition: 10s ease; */
+  background-image: linear-gradient(
+      rgba(207, 197, 45, 0.705),
+      rgba(207, 197, 45, 0.705)
+    ),
+    url("https://images.unsplash.com/photo-1480444423787-9ea7b1509c54?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80");
+  /* transition: 10s ease; */
 }
-.image-three{
-    height:75%;
-    background-image: url("https://images.unsplash.com/photo-1597213277741-2de4c4b717d1?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1537&q=80");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-    transition: .3s ease;
-    /* backface-visibility: hidden; */
+.image-three {
+  height: 75%;
+  background-image: url("https://images.unsplash.com/photo-1597213277741-2de4c4b717d1?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1537&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  transition: 0.3s ease;
+  /* backface-visibility: hidden; */
 }
 .image-three:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://images.unsplash.com/photo-1597213277741-2de4c4b717d1?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1537&q=80");
-    /* transition: 10s ease; */
+  background-image: linear-gradient(
+      rgba(207, 197, 45, 0.705),
+      rgba(207, 197, 45, 0.705)
+    ),
+    url("https://images.unsplash.com/photo-1597213277741-2de4c4b717d1?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1537&q=80");
+  /* transition: 10s ease; */
 }
-.image-four{
-    height:75%;
-    background-image: url("https://cdn.thewirecutter.com/wp-content/uploads/2019/04/lapdesks-lowres-3606-630x420.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-    transition: .3s ease;
-    /* backface-visibility: hidden; */
+.image-four {
+  height: 75%;
+  background-image: url("https://cdn.thewirecutter.com/wp-content/uploads/2019/04/lapdesks-lowres-3606-630x420.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  transition: 0.3s ease;
+  /* backface-visibility: hidden; */
 }
 .image-four:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://cdn.thewirecutter.com/wp-content/uploads/2019/04/lapdesks-lowres-3606-630x420.jpg");
-    /* transition: 10s ease; */
+  background-image: linear-gradient(
+      rgba(207, 197, 45, 0.705),
+      rgba(207, 197, 45, 0.705)
+    ),
+    url("https://cdn.thewirecutter.com/wp-content/uploads/2019/04/lapdesks-lowres-3606-630x420.jpg");
+  /* transition: 10s ease; */
 }
-.image-five{
-    height:75%;
-    background-image: url("https://lp-cms-production.imgix.net/features/2018/10/shutterstock_1048826978-v1-3ae964b49212.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-    transition: .3s ease;
-    /* backface-visibility: hidden; */
+.image-five {
+  height: 75%;
+  background-image: url("https://lp-cms-production.imgix.net/features/2018/10/shutterstock_1048826978-v1-3ae964b49212.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  transition: 0.3s ease;
+  /* backface-visibility: hidden; */
 }
 .image-five:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://lp-cms-production.imgix.net/features/2018/10/shutterstock_1048826978-v1-3ae964b49212.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850");
-    /* transition: 10s ease; */
+  background-image: linear-gradient(
+      rgba(207, 197, 45, 0.705),
+      rgba(207, 197, 45, 0.705)
+    ),
+    url("https://lp-cms-production.imgix.net/features/2018/10/shutterstock_1048826978-v1-3ae964b49212.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850");
+  /* transition: 10s ease; */
 }
-.image-six{
-    height:75%;
-    background-image: url("https://www.mural-wallpaper.com/wp-content/uploads/2020/11/S-CI48.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 40vh;
-    transition: .3s ease;
-    /* backface-visibility: hidden; */
+.image-six {
+  height: 75%;
+  background-image: url("https://www.mural-wallpaper.com/wp-content/uploads/2020/11/S-CI48.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+  transition: 0.3s ease;
+  /* backface-visibility: hidden; */
 }
 .image-six:hover {
-    background-image: linear-gradient(rgba(207, 197, 45, 0.705),rgba(207, 197, 45, 0.705)) , url("https://www.mural-wallpaper.com/wp-content/uploads/2020/11/S-CI48.jpg");
-    /* transition: 10s ease; */
+  background-image: linear-gradient(
+      rgba(207, 197, 45, 0.705),
+      rgba(207, 197, 45, 0.705)
+    ),
+    url("https://www.mural-wallpaper.com/wp-content/uploads/2020/11/S-CI48.jpg");
+  /* transition: 10s ease;  */
 }
-#team{
-    background-color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 150px;
-    text-align: center;
+/* TEAM SECTION STARTS HERE   EVGENIYA  */
+#team {
+  background-color: rgb(240, 240, 240);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 70px;
 }
-#team h1{
-    font-size:50px;
-    font-weight: bolder;
-    margin-top:70px;
+#team h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 0;
 }
-#team p{
-    color: darkgray;
-    font-style: italic;
-    font-size: 20px;      
+#team p {
+  color: darkgray;
+  font-style: italic;
+  font-size: 20px;
 }
-.members{
-    display: inline-block;
-    padding:32px;
-    justify-content:center;
-    align-items: center;
-    margin:27px;
-    text-align: center;
+.members {
+  display: inline-block;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  margin: 27px;
+  text-align: center;
 }
-.round{
-    border-radius:50%;
-    border: solid 0.4rem rgb(195, 192, 192);
-    box-shadow: 0 0 7px darkgray;
-    width: 200px;
-    height:200px;
+.round {
+  border-radius: 50%;
+  border: solid 0.4rem rgb(195, 192, 192);
+  box-shadow: 0 0 7px darkgray;
+  width: 200px;
+  height: 200px;
 }
-.members p{
-    color: darkgray;
-    font-size: 20px;
-    margin-top:0;
-    padding: 0;
+.members p {
+  color: darkgray;
+  font-size: 20px;
+  margin-top: 0;
+  padding: 0;
 }
-.members h2{
-    font-size: 30px;
-    font-weight: bold;
-    margin:4px;
-    padding: 4px;  
+.members h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 4px;
+  padding: 4px;
 }
-.icons{
-    list-style: none;
-    display: flex;
+.icons {
+  list-style: none;
+  display: flex;
 }
-.social-media{
-    position: relative;
-    display: block;
-    height: 38px;
-    width:38px;
-    font-size: 18px;
-    line-height: 38px;
-    color: white;
-    background-color: black;
-    cursor: pointer;
-    border-radius: 50%;
-    margin:5px;  
+.social-media {
+  position: relative;
+  display: block;
+  height: 38px;
+  width: 38px;
+  font-size: 18px;
+  line-height: 38px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 5px;
 }
-  
+
+/* FOOTER STARTS HERE Gulfiya and Akerke */
+footer {
+  text-align: center;
+}
+
+.footer-content {
+  display: inline-block;
+  margin: 20px;
+}
+.social-media-footer i {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 5px;
+  width: 23px;
+}
+
+.footer-content a {
+  text-decoration: none;
+  color: #fed136;
+  padding: 20px;
+}
+
+.social-media-footer {
+  padding-left: 350px;
+  padding-right: 200px;
+}
+
+.footer-content i:hover {
+  background-color: #212529;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/*  logo start  here teamwork */
+
+.logo-pictures {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-right: 0%;
+}
+
+.logo-pictures img {
+  width: 150px;
+  padding: 70px;
+  filter: grayscale(10);
+  opacity: 0.6;
+}
