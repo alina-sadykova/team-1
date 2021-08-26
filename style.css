@@ -482,3 +482,70 @@ footer {
   filter: grayscale(10);
   opacity: 0.6;
 }
+
+/* ------------------- Responsive ------------------- */
+
+@media screen and (max-width: 376px) {
+  * {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  body {
+    box-sizing: border-box;
+  }
+  .left-nav {
+    display: none;
+  }
+  .container {
+    width: 100%;
+  }
+  .social-media-footer {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav {
+    background-color: #212529;
+    padding: 20px;
+    /* position: fixed; */
+  }
+  .logo {
+    font-size: 25px;
+    justify-content: flex-start;
+    padding-left: 0;
+    /* position: fixed; */
+  }
+
+  header h3 {
+    font-size: 25px;
+  }
+
+  header h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  header {
+    height: 65vh;
+  }
+
+  header button {
+    width: 60%;
+  }
+
+  .service-boxes {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  .srv-box {
+    padding: 0;
+  }
+
+  .srv-box p {
+    width: 90%;
+    padding: 10px 30px;
+  }
+}
