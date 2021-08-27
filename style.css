@@ -466,7 +466,6 @@ footer {
   * {
     padding: 0;
     margin: 0;
-    width: 100%;
   }
   body {
     box-sizing: border-box;
@@ -476,9 +475,6 @@ footer {
   }
   .left-nav {
     display: none;
-  }
-  .container {
-    width: 100%;
   }
   .social-media-footer {
     padding: 0;
@@ -543,9 +539,6 @@ footer {
     left: 80px;
     bottom: 35px;
   }
-  .btn input {
-    width: 60%;
-  }
   #team {
     padding: 0;
     padding-top: 50px;
@@ -587,6 +580,7 @@ footer {
   }
   .footer-content {
     margin: 0;
+    display: block;
   }
   .portfolio-text p {
     margin-top: 10px;
