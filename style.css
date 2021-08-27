@@ -11,7 +11,6 @@ h2 {
 }
 .container {
   width: 100%;
-  /* position: relative; */
 }
 /* NAV starts here by Alina, Gulfiya, Evgeniia */
 nav {
@@ -61,19 +60,15 @@ header {
   width: 100%;
   color: white;
   text-align: center;
-  /* position: relative; */
-  /* line-height: 200px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 header h3 {
   font-size: 40px;
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
-  /* font-style: italic; */
   margin-top: 100px;
   margin-bottom: 0;
 }
@@ -84,7 +79,6 @@ header h1 {
   margin-bottom: 80px;
 }
 header button {
-  /* background-color: #fed136; */
   background-color: rgb(228, 189, 15);
   color: white;
   cursor: pointer;
@@ -266,8 +260,6 @@ textarea {
   background-repeat: no-repeat;
   background-size: cover;
   height: 40vh;
-  /* transition: .3s ease; */
-  /* backface-visibility: hidden; */
 }
 .image-one:hover {
   background-image: linear-gradient(
@@ -285,7 +277,6 @@ textarea {
   background-size: cover;
   height: 40vh;
   transition: 0.3s ease;
-  /* backface-visibility: hidden; */
 }
 .image-two:hover {
   background-image: linear-gradient(
@@ -293,7 +284,6 @@ textarea {
       rgba(207, 197, 45, 0.705)
     ),
     url("https://images.unsplash.com/photo-1480444423787-9ea7b1509c54?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80");
-  /* transition: 10s ease; */
 }
 .image-three {
   height: 75%;
@@ -303,7 +293,6 @@ textarea {
   background-size: cover;
   height: 40vh;
   transition: 0.3s ease;
-  /* backface-visibility: hidden; */
 }
 .image-three:hover {
   background-image: linear-gradient(
@@ -311,7 +300,6 @@ textarea {
       rgba(207, 197, 45, 0.705)
     ),
     url("https://images.unsplash.com/photo-1597213277741-2de4c4b717d1?ixid=MnwxMjA3fDB8MHxwaG90[…]GVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1537&q=80");
-  /* transition: 10s ease; */
 }
 .image-four {
   height: 75%;
@@ -321,7 +309,6 @@ textarea {
   background-size: cover;
   height: 40vh;
   transition: 0.3s ease;
-  /* backface-visibility: hidden; */
 }
 .image-four:hover {
   background-image: linear-gradient(
@@ -329,7 +316,6 @@ textarea {
       rgba(207, 197, 45, 0.705)
     ),
     url("https://cdn.thewirecutter.com/wp-content/uploads/2019/04/lapdesks-lowres-3606-630x420.jpg");
-  /* transition: 10s ease; */
 }
 .image-five {
   height: 75%;
@@ -339,7 +325,6 @@ textarea {
   background-size: cover;
   height: 40vh;
   transition: 0.3s ease;
-  /* backface-visibility: hidden; */
 }
 .image-five:hover {
   background-image: linear-gradient(
@@ -347,7 +332,6 @@ textarea {
       rgba(207, 197, 45, 0.705)
     ),
     url("https://lp-cms-production.imgix.net/features/2018/10/shutterstock_1048826978-v1-3ae964b49212.jpg?auto=format&fit=crop&sharp=10&vib=20&ixlib=react-8.6.4&w=850");
-  /* transition: 10s ease; */
 }
 .image-six {
   height: 75%;
@@ -357,7 +341,6 @@ textarea {
   background-size: cover;
   height: 40vh;
   transition: 0.3s ease;
-  /* backface-visibility: hidden; */
 }
 .image-six:hover {
   background-image: linear-gradient(
@@ -365,7 +348,6 @@ textarea {
       rgba(207, 197, 45, 0.705)
     ),
     url("https://www.mural-wallpaper.com/wp-content/uploads/2020/11/S-CI48.jpg");
-  /* transition: 10s ease;  */
 }
 /* TEAM SECTION STARTS HERE   EVGENIYA  */
 #team {
@@ -433,7 +415,6 @@ textarea {
 footer {
   text-align: center;
 }
-
 .footer-content {
   display: inline-block;
   margin: 20px;
@@ -446,28 +427,23 @@ footer {
   margin: 5px;
   width: 23px;
 }
-
 .footer-content a {
   text-decoration: none;
   color: #fed136;
   padding: 20px;
 }
-
 .social-media-footer {
   padding-left: 350px;
   padding-right: 200px;
 }
-
 .footer-content i:hover {
   background-color: #212529;
 }
-
 .footer-content a:hover {
   text-decoration: underline;
 }
 
 /*  logo start  here teamwork */
-
 .logo-pictures {
   display: flex;
   justify-content: center;
@@ -492,11 +468,9 @@ footer {
     margin: 0;
     width: 100%;
   }
-
   body {
     box-sizing: border-box;
   }
-
   h2 {
     font-size: 30px;
   }
@@ -510,7 +484,6 @@ footer {
     padding: 0;
     margin: 0;
   }
-
   nav {
     background-color: #212529;
     padding: 20px;
@@ -520,24 +493,19 @@ footer {
     justify-content: flex-start;
     padding-left: 0;
   }
-
   header h3 {
     font-size: 25px;
   }
-
   header h1 {
     font-size: 40px;
     margin-bottom: 50px;
   }
-
   header {
     height: 65vh;
   }
-
   header button {
     width: 60%;
   }
-
   .service-boxes {
     display: block;
     width: 90%;
@@ -550,18 +518,15 @@ footer {
   .srv-box h4 {
     margin: 15px 0;
   }
-
   .srv-box p {
     width: 100%;
     padding: 10px 0;
   }
   form {
     display: block;
-    /* box-sizing: border-box; */
   }
   .input-left,
   .input-right {
-    /* padding: 5px; */
     width: 90%;
     margin: auto;
   }
@@ -573,9 +538,7 @@ footer {
   }
   .input-right {
     margin: auto;
-    /* padding: 5px; */
   }
-
   .btn {
     left: 80px;
     bottom: 35px;
@@ -590,7 +553,6 @@ footer {
   .team-header-p {
     margin: 10px 0 30px 0;
   }
-
   .team-footer-p {
     padding-bottom: 70px;
     margin: auto;
@@ -626,14 +588,12 @@ footer {
   .footer-content {
     margin: 0;
   }
-
   .portfolio-text p {
     margin-top: 10px;
   }
   .products h2 {
     margin-top: 15px;
   }
-
   .products {
     margin-top: 20px;
   }
